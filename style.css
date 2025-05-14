@@ -1,12 +1,12 @@
 /* ベーススタイル */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5deb3; /* 薄茶色 */
-    font-family: Arial, sans-serif; /* フォントを設定 */
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #d2b48c 50%, #ffffff 50%);
+  /* #d2b48c はモカブラウン */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 nav {
