@@ -16,9 +16,11 @@ nav {
 .menu {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 10px 20px; /* パディングを少し追加して間隔を調整 */
     display: flex;
     justify-content: center;
+    background-color: #f7f7f7; /* 軽やかなグレーの背景色 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 少しの陰影を追加 */
 }
 
 .menu li {
@@ -27,9 +29,15 @@ nav {
 
 .menu a {
     text-decoration: none;
-    color: white;
+    color: #333; /* テキストをダークグレーに変更 */
     font-weight: bold;
+    transition: color 0.3s; /* ホバー時のアニメーションを追加 */
 }
+
+.menu a:hover {
+    color: #ff6347; /* ホバー時に目立つアクセントカラーを設定 */
+}
+
 
 header {
     text-align: center;
