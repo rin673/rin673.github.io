@@ -3,11 +3,10 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to right, #FAF0E6 50%, #ffffff 50%);
-  /* #d2b48c はモカブラウン */
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+  height: 100vh; /* 全画面を覆う */
+  background: linear-gradient(to right, #FAF0E6 50%, #ffffff 50%); /* 左半分モカブラウン、右半分白 */
 }
+
 
 nav {
     background-color: #333;
